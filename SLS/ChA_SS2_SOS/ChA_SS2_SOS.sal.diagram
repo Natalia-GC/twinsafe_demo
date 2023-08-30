@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<safetyApplicationLanguageDiagram Crc="3671029768" dslVersion="1.4.0.0" Id="5dea2da7-2918-493b-bb81-f4fa0b90beb7" absoluteBounds="0, 0, 35, 8.5" diagramId="512264f9-a92c-42b8-a8e3-9ad93bd1cd16">
+  <safetyApplicationMoniker name="/" />
+  <nestedChildShapes>
+    <networkSwimLane Id="c3a98b34-fa1b-4ae5-99c3-133c691d4e22" absoluteBounds="0, 0, 35, 7.795">
+      <networkMoniker name="//SS2_SOS_ChA" />
+      <nestedChildShapes>
+        <fBMonShape Id="e47c1a2d-6b11-40f0-91d8-b36f1b46124a" absoluteBounds="3, 0.625, 3.35, 4.45">
+          <fBMonMoniker name="//SS2_SOS_ChA/SS2" />
+          <relativeChildShapes>
+            <inPortShape Id="44b4d9b3-2d19-47a1-8681-016c47283a55" absoluteBounds="2.92, 1.37, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SS2/Restart" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="901e0822-37a0-4752-9302-a865e2380c3c" absoluteBounds="2.92, 1.9325, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SS2/MonIn1" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="f17ac13d-78fd-470a-a58f-50d72e0d307a" absoluteBounds="2.92, 2.1575, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SS2/MonIn2" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="44d479ba-0fcc-4d05-b42d-a938820afa61" absoluteBounds="2.92, 2.4725, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SS2/MonIn3" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="cf8dcc24-6b24-4864-8e46-be8e305e4feb" absoluteBounds="2.92, 2.6975000000000002, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SS2/MonIn4" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="9ddd3796-fc08-422f-9b6f-266195a37d9c" absoluteBounds="2.92, 3.2825, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SS2/Secure1" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="4642d48d-3208-4368-b3ea-ca068c22d042" absoluteBounds="2.92, 3.5075000000000003, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SS2/Secure2" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="7249fec8-c1e0-4315-b853-571ee54c93cb" absoluteBounds="2.92, 4.3625000000000007, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SS2/EDM1" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="f8688b14-57f3-4018-a62d-b89d856734ea" absoluteBounds="2.92, 4.5875, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SS2/EDM2" />
+              <relativeChildShapes />
+            </inPortShape>
+            <outPortShape Id="9479d453-399f-4dbe-8cba-810f4455c659" absoluteBounds="6.25, 1.9100000000000001, 0.15, 0.15">
+              <outPortMoniker name="//SS2_SOS_ChA/SS2/Error" />
+              <relativeChildShapes />
+            </outPortShape>
+            <outPortShape Id="046ff31b-c982-40a2-b15c-243d660c1f7a" absoluteBounds="6.25, 3.8000000000000003, 0.15, 0.15">
+              <outPortMoniker name="//SS2_SOS_ChA/SS2/MonOut" />
+              <relativeChildShapes />
+            </outPortShape>
+            <outPortShape Id="85bc478d-3a79-4007-bc47-80363507391b" absoluteBounds="6.25, 4.07, 0.15, 0.15">
+              <outPortMoniker name="//SS2_SOS_ChA/SS2/MonDelOut" />
+              <relativeChildShapes />
+            </outPortShape>
+            <paramPortShape Id="a6adbfce-3cfe-42ef-9c67-318ba2717d15" absoluteBounds="4.57, 3.9500000000000006, 0.7, 0.2">
+              <parameterPortMoniker name="//SS2_SOS_ChA/SS2/Delay Time (ms)" />
+              <relativeChildShapes />
+            </paramPortShape>
+          </relativeChildShapes>
+        </fBMonShape>
+        <fBOrShape Id="d9ed0883-9d99-4d7f-ad8b-c6d8e057c927" absoluteBounds="10, 1.875, 2.75, 3.25">
+          <fBOrMoniker name="//SS2_SOS_ChA/NEGATION_SS2_SOS" />
+          <relativeChildShapes>
+            <inPortShape Id="8cfc1e67-0ef3-49ee-8105-1c99fd21731a" absoluteBounds="9.92, 2.62, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/NEGATION_SS2_SOS/OrIn1" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="b3f8d3bf-50a0-4a7b-84a7-531ce46b6882" absoluteBounds="9.92, 2.89, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/NEGATION_SS2_SOS/OrIn2" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="81628daa-5b5b-4d27-8c14-7ac10890f8b4" absoluteBounds="9.92, 3.16, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/NEGATION_SS2_SOS/OrIn3" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="54dd0924-88a4-4150-a6e7-83e0a61c47d1" absoluteBounds="9.92, 3.43, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/NEGATION_SS2_SOS/OrIn4" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="cabc3918-1675-4d92-8a10-f017677d2471" absoluteBounds="9.92, 3.7, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/NEGATION_SS2_SOS/OrIn5" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="38d1f9bf-0912-426b-97e4-702d9ddcd2a2" absoluteBounds="9.92, 3.97, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/NEGATION_SS2_SOS/OrIn6" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="84ef228f-a91d-4bad-962a-6643701d637c" absoluteBounds="9.92, 4.24, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/NEGATION_SS2_SOS/OrIn7" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="ff13413d-b1b6-4dbf-aa4b-c0bbaa4285e7" absoluteBounds="9.92, 4.51, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/NEGATION_SS2_SOS/OrIn8" />
+              <relativeChildShapes />
+            </inPortShape>
+            <outPortShape Id="37be83eb-5974-4dcc-aee3-ada391b4204f" absoluteBounds="12.65, 4.24, 0.15, 0.15">
+              <outPortMoniker name="//SS2_SOS_ChA/NEGATION_SS2_SOS/OrOut" />
+              <relativeChildShapes />
+            </outPortShape>
+          </relativeChildShapes>
+        </fBOrShape>
+        <fBAndShape Id="b276202e-e4bf-477a-bb18-503baf5c57f8" absoluteBounds="17, 0.25, 2.75, 3.25">
+          <fBAndMoniker name="//SS2_SOS_ChA/COMMAND_SS2_SOS" />
+          <relativeChildShapes>
+            <inPortShape Id="144877c3-1ab6-4f92-8f87-ebc251488439" absoluteBounds="16.92, 0.995, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/COMMAND_SS2_SOS/AndIn1" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="f01844f5-6c96-4872-9966-e32b52dbd482" absoluteBounds="16.92, 1.2650000000000001, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/COMMAND_SS2_SOS/AndIn2" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="ed46a5f9-d57e-4440-8ce9-6ee1aeec4b7d" absoluteBounds="16.92, 1.5350000000000001, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/COMMAND_SS2_SOS/AndIn3" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="2a46bd97-ba46-49a6-bb1c-95c76ae1a98f" absoluteBounds="16.92, 1.8050000000000002, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/COMMAND_SS2_SOS/AndIn4" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="3411d05c-838f-464c-893c-9297e25813cf" absoluteBounds="16.92, 2.075, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/COMMAND_SS2_SOS/AndIn5" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="38aad0a7-54a6-4e52-a31d-f32a2ef5d116" absoluteBounds="16.92, 2.345, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/COMMAND_SS2_SOS/AndIn6" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="80285409-1081-4b71-80d5-cecabc990367" absoluteBounds="16.92, 2.615, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/COMMAND_SS2_SOS/AndIn7" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="eac9ee4e-92ed-4a79-8d31-97570e316c81" absoluteBounds="16.92, 2.8850000000000002, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/COMMAND_SS2_SOS/AndIn8" />
+              <relativeChildShapes />
+            </inPortShape>
+            <outPortShape Id="ea9e17fd-7f20-4dd5-bca4-52917ed56230" absoluteBounds="19.65, 2.615, 0.15, 0.15">
+              <outPortMoniker name="//SS2_SOS_ChA/COMMAND_SS2_SOS/AndOut" />
+              <relativeChildShapes />
+            </outPortShape>
+          </relativeChildShapes>
+        </fBAndShape>
+        <fBSLI2Shape Id="d66cf947-d20a-446a-8821-14633eaf7056" absoluteBounds="17, 4.125, 3.35, 3.42">
+          <fBSLI2Moniker name="//SS2_SOS_ChA/SOS" />
+          <relativeChildShapes>
+            <inPortShape Id="99bfdd6a-0703-422a-9b9c-41db29e3ddcb" absoluteBounds="16.92, 4.87, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SOS/SLI" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="e07a72cf-016a-4faa-bca1-f2553150299e" absoluteBounds="16.92, 5.1400000000000006, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SOS/Position" />
+              <relativeChildShapes />
+            </inPortShape>
+            <outPortShape Id="ae3bf23f-cf72-4c9b-8e7d-008e554c8b9a" absoluteBounds="20.25, 5.1400000000000006, 0.15, 0.15">
+              <outPortMoniker name="//SS2_SOS_ChA/SOS/Error" />
+              <relativeChildShapes />
+            </outPortShape>
+            <outPortShape Id="4a6ecb60-9668-42ea-94b7-329c7fc2fca5" absoluteBounds="20.25, 5.41, 0.15, 0.15">
+              <outPortMoniker name="//SS2_SOS_ChA/SOS/SLIActive" />
+              <relativeChildShapes />
+            </outPortShape>
+            <outPortShape Id="f857a4e3-24cf-4c04-8b48-4bfab6818930" absoluteBounds="20.25, 5.68, 0.15, 0.15">
+              <outPortMoniker name="//SS2_SOS_ChA/SOS/BelowMin" />
+              <relativeChildShapes />
+            </outPortShape>
+            <outPortShape Id="7371f72b-9c90-4ec6-bc30-9e6524dc875a" absoluteBounds="20.25, 5.95, 0.15, 0.15">
+              <outPortMoniker name="//SS2_SOS_ChA/SOS/AboveMax" />
+              <relativeChildShapes />
+            </outPortShape>
+            <outPortShape Id="19308352-1e70-4134-b768-d117bed9f868" absoluteBounds="20.25, 6.2200000000000006, 0.15, 0.15">
+              <outPortMoniker name="//SS2_SOS_ChA/SOS/PositionDiff" />
+              <relativeChildShapes />
+            </outPortShape>
+            <paramPortShape Id="c9883f21-300e-4039-b7ef-9ae31e60c96d" absoluteBounds="18.57, 6.6, 0.7, 0.2">
+              <parameterPortMoniker name="//SS2_SOS_ChA/SOS/Limit pos" />
+              <relativeChildShapes />
+            </paramPortShape>
+            <paramPortShape Id="5595e2f7-848a-4dda-a989-3a5bf1e2dff8" absoluteBounds="18.57, 7, 0.7, 0.2">
+              <parameterPortMoniker name="//SS2_SOS_ChA/SOS/Limit neg" />
+              <relativeChildShapes />
+            </paramPortShape>
+          </relativeChildShapes>
+        </fBSLI2Shape>
+        <fBOrShape Id="92d7dbea-6abc-4886-91a6-d160f9fc45fd" absoluteBounds="24, 3.5, 2.75, 3.25">
+          <fBOrMoniker name="//SS2_SOS_ChA/SS2_OUT" />
+          <relativeChildShapes>
+            <inPortShape Id="2a9d7f1a-7401-43ae-a38b-aaa5064be97e" absoluteBounds="23.92, 4.245, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SS2_OUT/OrIn1" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="6d68e9d5-7516-45ac-af6b-e8edc6f06d63" absoluteBounds="23.92, 4.5150000000000006, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SS2_OUT/OrIn2" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="d335f0f3-13d3-47fb-96aa-cca968621eb5" absoluteBounds="23.92, 4.785, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SS2_OUT/OrIn3" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="c23738fa-cf38-4a52-86d6-c4dfc7c4a6dd" absoluteBounds="23.92, 5.055, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SS2_OUT/OrIn4" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="1f32ebbf-40ff-42ab-a8a5-5a749c989e6d" absoluteBounds="23.92, 5.325, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SS2_OUT/OrIn5" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="1ee16409-ba22-40fe-a58e-2b653f578b00" absoluteBounds="23.92, 5.5950000000000006, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SS2_OUT/OrIn6" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="df6b4022-7980-480e-b2ae-d242bd98caa6" absoluteBounds="23.92, 5.865, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SS2_OUT/OrIn7" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="055636fb-7f4a-4f5b-9a8d-ef9888d44918" absoluteBounds="23.92, 6.135, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/SS2_OUT/OrIn8" />
+              <relativeChildShapes />
+            </inPortShape>
+            <outPortShape Id="50903b3e-3a20-4374-ac0f-62c827532d46" absoluteBounds="26.65, 5.865, 0.15, 0.15">
+              <outPortMoniker name="//SS2_SOS_ChA/SS2_OUT/OrOut" />
+              <relativeChildShapes />
+            </outPortShape>
+          </relativeChildShapes>
+        </fBOrShape>
+        <fBAndShape Id="10108666-0443-4826-9cd8-e220a1622ca6" absoluteBounds="31, 0.625, 2.75, 3.25">
+          <fBAndMoniker name="//SS2_SOS_ChA/INVERT_SOS_STATE_ChA" />
+          <relativeChildShapes>
+            <inPortShape Id="72cacc98-1627-428d-9b1c-d3c47d85f9fd" absoluteBounds="30.92, 1.37, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/INVERT_SOS_STATE_ChA/AndIn1" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="f6fc0fbd-09ec-40be-ac2d-6f76053e42fb" absoluteBounds="30.92, 1.6400000000000001, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/INVERT_SOS_STATE_ChA/AndIn2" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="85bc91de-afdc-43a8-909d-48dbef463cae" absoluteBounds="30.92, 1.9100000000000001, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/INVERT_SOS_STATE_ChA/AndIn3" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="50253cb7-92d4-4910-a380-90da4972b764" absoluteBounds="30.92, 2.18, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/INVERT_SOS_STATE_ChA/AndIn4" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="e4694f22-3755-4322-a9ad-186b5d2f6589" absoluteBounds="30.92, 2.45, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/INVERT_SOS_STATE_ChA/AndIn5" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="15777e26-22ef-4eec-8763-41303fcb393e" absoluteBounds="30.92, 2.72, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/INVERT_SOS_STATE_ChA/AndIn6" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="ba8c008b-762a-4bf5-87c3-4455c97606ea" absoluteBounds="30.92, 2.99, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/INVERT_SOS_STATE_ChA/AndIn7" />
+              <relativeChildShapes />
+            </inPortShape>
+            <inPortShape Id="50251c32-5467-4617-8f06-f02112713a04" absoluteBounds="30.92, 3.2600000000000002, 0.15, 0.15">
+              <inPortMoniker name="//SS2_SOS_ChA/INVERT_SOS_STATE_ChA/AndIn8" />
+              <relativeChildShapes />
+            </inPortShape>
+            <outPortShape Id="ed3d61b7-2876-44ac-8f17-4ba768947625" absoluteBounds="33.65, 2.99, 0.15, 0.15">
+              <outPortMoniker name="//SS2_SOS_ChA/INVERT_SOS_STATE_ChA/AndOut" />
+              <relativeChildShapes />
+            </outPortShape>
+          </relativeChildShapes>
+        </fBAndShape>
+        <wiredLinkConnector Id="e4002aa2-b011-4a0a-8043-58a0c30de1c3" edgePoints="[(6.4 : 4.145); (6.775 : 4.145); (6.775 : 2.695); (6.84166666666667 : 2.695 : JumpStart); (6.90833333333333 : 2.695 : JumpEnd); (9.92 : 2.695)]" fixedFrom="Caller" fixedTo="Caller" color="0, 0, 0" thickness="0.01" expandedManuallyRouted="false">
+          <wiredLinkMoniker Id="a1187bfa-aaaa-49b7-901e-782bbe64c92e" />
+          <nodes>
+            <outPortShapeMoniker Id="85bc478d-3a79-4007-bc47-80363507391b" />
+            <inPortShapeMoniker Id="8cfc1e67-0ef3-49ee-8105-1c99fd21731a" />
+          </nodes>
+        </wiredLinkConnector>
+        <wiredLinkConnector Id="6e98bb1f-7c78-4b0c-9d30-87f1cd2acbbb" edgePoints="[(6.4 : 4.145); (6.875 : 4.145); (6.875 : 1.07); (16.92 : 1.07)]" fixedFrom="Caller" fixedTo="Caller" color="0, 0, 0" thickness="0.01" expandedManuallyRouted="false">
+          <wiredLinkMoniker Id="5618219b-d9db-406b-8e19-191dc941e5d4" />
+          <nodes>
+            <outPortShapeMoniker Id="85bc478d-3a79-4007-bc47-80363507391b" />
+            <inPortShapeMoniker Id="144877c3-1ab6-4f92-8f87-ebc251488439" />
+          </nodes>
+        </wiredLinkConnector>
+        <wiredLinkConnector Id="711a30c8-023f-487a-84af-50988a574b7b" edgePoints="[(12.8 : 4.315); (13.175 : 4.315); (13.175 : 4.945); (16.92 : 4.945)]" fixedFrom="Caller" fixedTo="Caller" color="0, 0, 0" thickness="0.01" expandedManuallyRouted="false">
+          <wiredLinkMoniker Id="eed6f497-34c0-4f0c-bcbc-a89535772e64" />
+          <nodes>
+            <outPortShapeMoniker Id="37be83eb-5974-4dcc-aee3-ada391b4204f" />
+            <inPortShapeMoniker Id="99bfdd6a-0703-422a-9b9c-41db29e3ddcb" />
+          </nodes>
+        </wiredLinkConnector>
+        <wiredLinkConnector Id="0447db99-4291-4af4-a400-d56e5d4cf96a" edgePoints="[(19.8 : 2.69); (23.545 : 2.69); (23.545 : 4.32); (23.92 : 4.32)]" fixedFrom="Caller" fixedTo="Caller" color="0, 0, 0" thickness="0.01" expandedManuallyRouted="false">
+          <wiredLinkMoniker Id="d9bf3c4b-c7bc-405c-9322-22664b3eed6e" />
+          <nodes>
+            <outPortShapeMoniker Id="ea9e17fd-7f20-4dd5-bca4-52917ed56230" />
+            <inPortShapeMoniker Id="2a9d7f1a-7401-43ae-a38b-aaa5064be97e" />
+          </nodes>
+        </wiredLinkConnector>
+        <wiredLinkConnector Id="4a86fa03-3849-467a-b2c3-f2eedf4445c4" edgePoints="[(19.8 : 2.69); (20.175 : 2.69); (20.175 : 1.445); (30.92 : 1.445)]" fixedFrom="Caller" fixedTo="Caller" color="0, 0, 0" thickness="0.01" expandedManuallyRouted="false">
+          <wiredLinkMoniker Id="acdc1808-ee20-4e21-b51c-e06ebe86ccbc" />
+          <nodes>
+            <outPortShapeMoniker Id="ea9e17fd-7f20-4dd5-bca4-52917ed56230" />
+            <inPortShapeMoniker Id="72cacc98-1627-428d-9b1c-d3c47d85f9fd" />
+          </nodes>
+        </wiredLinkConnector>
+        <wiredLinkConnector Id="48ab7a29-6ef9-49d3-b5bf-abb73ed76b5d" edgePoints="[(20.4 : 5.485); (20.775 : 5.485); (20.775 : 4.59); (23.92 : 4.59)]" fixedFrom="Caller" fixedTo="Caller" color="0, 0, 0" thickness="0.01" expandedManuallyRouted="false">
+          <wiredLinkMoniker Id="d2faf2e3-aa43-4320-b89d-12d87d158f46" />
+          <nodes>
+            <outPortShapeMoniker Id="4a6ecb60-9668-42ea-94b7-329c7fc2fca5" />
+            <inPortShapeMoniker Id="6d68e9d5-7516-45ac-af6b-e8edc6f06d63" />
+          </nodes>
+        </wiredLinkConnector>
+        <wiredLinkConnector Id="b1cadf57-b0bd-42e3-a251-f7dad6fdfc5f" edgePoints="[(26.8 : 5.94); (27.175 : 5.94); (27.175 : 1.715); (30.92 : 1.715)]" fixedFrom="Caller" fixedTo="Caller" color="0, 0, 0" thickness="0.01" expandedManuallyRouted="false">
+          <wiredLinkMoniker Id="f2e4aeb1-f145-42ed-9fb8-821a87532208" />
+          <nodes>
+            <outPortShapeMoniker Id="50903b3e-3a20-4374-ac0f-62c827532d46" />
+            <inPortShapeMoniker Id="f6fc0fbd-09ec-40be-ac2d-6f76053e42fb" />
+          </nodes>
+        </wiredLinkConnector>
+      </nestedChildShapes>
+    </networkSwimLane>
+  </nestedChildShapes>
+</safetyApplicationLanguageDiagram>

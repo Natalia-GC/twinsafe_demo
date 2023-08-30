@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.11">
+	<Project ProjectGUID="{4049C9EF-4CC5-488E-A55F-2A390DC1B66D}" Target64Bit="true" ShowHideConfigurations="#x106">
+		<Safety>
+			<Project File="ESTOPS.xti"/>
+			<Project File="SLS.xti"/>
+		</Safety>
+	</Project>
+</TcSmProject>
